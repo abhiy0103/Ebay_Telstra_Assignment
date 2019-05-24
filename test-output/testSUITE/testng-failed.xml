@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSUITE]">
+  <test thread-count="5" name="testCASES(failed)">
+    <parameter name="appPackage" value="com.ebay.mobile"/>
+    <parameter name="appActivity" value="com.ebay.mobile.activities.MainActivity"/>
+    <parameter name="device" value="ZY223Z496B"/>
+    <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="com.ebay.test.TestPage">
+        <methods>
+          <include name="ebayAssignmentTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ebay.test.TestPage -->
+    </classes>
+  </test> <!-- testCASES(failed) -->
+</suite> <!-- Failed suite [testSUITE] -->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83906" started-at="2019-05-22T19:45:03Z" finished-at="2019-05-22T19:46:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="83906" started-at="2019-05-22T19:45:03Z" finished-at="2019-05-22T19:46:27Z">
+      <class name="com.ebay.test.TestPage">
+        <test-method status="PASS" signature="ebayAssignmentTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.test.TestPage@dc24521]" name="ebayAssignmentTest" duration-ms="82119" started-at="2019-05-22T19:45:03Z" finished-at="2019-05-22T19:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G350RU05837301W4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.ebay.mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.ebay.mobile.activities.MainActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ebayAssignmentTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ebay.test.TestPage@dc24521]" name="tearDown" is-config="true" duration-ms="1761" started-at="2019-05-22T19:46:25Z" finished-at="2019-05-22T19:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ebayAssignmentTest status=SUCCESS method=TestPage.ebayAssignmentTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.test.TestPage@dc24521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.test.TestPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

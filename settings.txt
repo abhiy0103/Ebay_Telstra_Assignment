@@ -1,0 +1,5 @@
+java org.testng.TestNG testngPOM.xml
+
+cd /d E:\JPN Softwares\Selenium-Appium_18 Jan 2019\Ebay_Telstra_Assignment
+
+set classpath=E:\JPN Softwares\Selenium-Appium_18 Jan 2019\Ebay_Telstra_Assignment\bin;E:\JPN Softwares\Selenium-Appium_18 Jan 2019\Ebay_Telstra_Assignment\lib\*;
